@@ -1,0 +1,72 @@
+
+
+
+/*************@media querry************/
+
+@media (max-width: 1400px) {
+nav {
+    padding: 10px 30px;
+}
+nav ul li {
+    padding: 0 12px;
+}
+
+
+}
+@media (max-width: 1200px) {
+nav {
+    padding: 10px 0;
+}
+nav ul li a {
+    font-size: 18px;
+}
+.heading {
+    margin: 0;
+}
+.heading h2 {
+    font-size: 40px;
+    margin:0;
+}
+
+
+}
+@media (max-width: 992px) {
+    .heading h2 {
+    font-size: 32px;
+}
+
+
+.service p {
+    padding: 25px;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+
+.service {
+    padding: 22px;
+}
+.banner {
+    height: 70vh;
+    align-items: center;
+    font-size: 35px;
+}
+footer ul li {
+    padding: 5px 10px;
+}
+footer ul li a {
+    font-size: 13px;
+}
+
+}
+
+@media (max-width: 768px) {
+ .banner {
+    height: 70vh;
+    font-size: 30px;
+}
+.col_1_2 {
+    flex-basis: 100%;
+}
+}
+
